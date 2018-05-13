@@ -42,17 +42,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conferences/master/_listings/twilio/accounts-accountsid-conferences-conferencesid-participants-callsid-format-get.md
-- name: Twilio Get Conference
-  description: Get Conference
+- name: Twilio GetParticipantForConference
+  description: GetParticipantForConference
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Conferences
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conferences/master/_listings/twilio/accounts-accountsid-conferences-conferencesid-format-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conferences/master/_listings/twilio/accounts-accountsid-conferences-conferencesid-participants-callsid-format-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conferences/master/_listings/twilio/accounts-accountsid-conferences-conferencesid-format-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conferences/master/_listings/twilio/accounts-accountsid-conferences-conferencesid-participants-callsid-format-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install
